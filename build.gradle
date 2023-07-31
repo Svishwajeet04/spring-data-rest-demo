@@ -27,8 +27,11 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
 //    implementation 'org.springframework.data:spring-data-rest-webmvc:4.1.2'
     implementation 'org.springframework.data:spring-data-rest-hal-explorer'
-    implementation 'com.h2database:h2'
+    implementation 'com.graphql-java-kickstart:graphiql-spring-boot-starter:11.1.0'
+    implementation 'org.springframework.boot:spring-boot-starter-graphql'
+//    implementation 'com.h2database:h2'
     compileOnly 'org.projectlombok:lombok'
+    implementation 'org.postgresql:postgresql:42.6.0'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }

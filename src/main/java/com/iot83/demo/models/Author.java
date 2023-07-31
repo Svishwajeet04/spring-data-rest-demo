@@ -21,6 +21,6 @@ public class Author {
 
     private String name;
 
-    @ManyToMany(targetEntity = Book.class, mappedBy = "author")
+    @ManyToMany(targetEntity = Book.class, mappedBy = "authors")
     private List<Book> books;
 }

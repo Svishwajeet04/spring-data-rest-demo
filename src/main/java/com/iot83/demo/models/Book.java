@@ -23,7 +23,7 @@ public class Book {
     private String name;
 
     @ManyToMany(targetEntity = Author.class)
-    private List<Author> author;
+    private List<Author> authors;
 
     @ManyToOne(targetEntity = User.class)
     private User buyer;

@@ -1,0 +1,30 @@
+query data {
+  getAllBook{
+    id
+      name
+      buyer {
+        id
+        name
+      }
+    authors {
+      id
+      name
+      books {
+        id
+        name
+      }
+    }
+  }
+  getAllAuthor{
+    id
+    name
+    books {
+      id
+      name
+      buyer {
+        id
+        name
+      }
+    }
+  }
+}
